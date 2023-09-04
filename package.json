@@ -1,0 +1,27 @@
+{
+  "name": "@qatools/ts-module-poc",
+  "version": "1.0.0",
+  "description": "TypeScript module",
+  "main": "bin/index.js",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danrusu/ts-module-poc.git"
+  },
+  "keywords": [],
+  "author": "Dan Rusu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danrusu/ts-module-poc/issues"
+  },
+  "homepage": "https://github.com/danrusu/ts-module-poc#readme",
+  "dependencies": {
+    "@types/chai": "^4.3.6"
+  },
+  "bin": {
+    "ts-module-poc": "bin/Test.js"
+  },
+  "devDependencies": {}
+}
