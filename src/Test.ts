@@ -6,3 +6,8 @@ export default class Test {
     chai.expect(actual).equals(expected);
   }
 }
+
+export type Person = {
+  name: string;
+  age: number;
+};

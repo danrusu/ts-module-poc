@@ -1,3 +1,3 @@
-import Test from './Test';
+import Test, { Person } from './Test';
 
-export { Test };
+export { Test, Person };
