@@ -18,10 +18,10 @@
   },
   "homepage": "https://github.com/danrusu/ts-module-poc#readme",
   "dependencies": {
-    "@types/chai": "^4.3.6"
+    "@types/chai": "^4.3.6",
+    "chai": "^4.3.8"
   },
   "bin": {
     "ts-module-poc": "bin/Test.js"
-  },
-  "devDependencies": {}
+  }
 }
