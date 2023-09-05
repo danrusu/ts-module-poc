@@ -1,15 +1,15 @@
 # ts-module-poc
 
-### Transpile
+### Build
 
 ```bash
-tsc
+npm run build
 ```
 
 ### Publish
 
 ```bash
-npm publish
+npm run publish
 ```
 
 ### [Npm package](https://www.npmjs.com/package/@qatools/ts-module-poc)

@@ -2,8 +2,11 @@
   "name": "@qatools/ts-module-poc",
   "version": "1.0.0",
   "description": "TypeScript module",
-  "main": "bin/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "pack-dry": "npm pack --dry-run",
+    "build": "tsc",
     "publish": "npm publish --access public"
   },
   "repository": {
@@ -23,5 +26,8 @@
   },
   "bin": {
     "ts-module-poc": "bin/Test.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
   }
 }
