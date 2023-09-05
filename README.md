@@ -20,7 +20,7 @@ npm link @qatools/ts-module-poc
 # import { Test, Person } from '@qatools/ts-module-poc';
 ```
 
-### Publish to npm registry
+### 3. Publish to npm registry
 
 ```bash
 npm run publish
