@@ -1,12 +1,26 @@
 # ts-module-poc
 
-### Build
+### 1. Build
 
 ```bash
 npm run build
 ```
 
-### Publish
+### 2. Test module localy
+
+```bash
+npm link
+```
+
+- from another repository where you want to import it:
+
+```bash
+npm link @qatools/ts-module-poc
+# In a .ts file use:
+# import { Test, Person } from '@qatools/ts-module-poc';
+```
+
+### Publish to npm registry
 
 ```bash
 npm run publish
